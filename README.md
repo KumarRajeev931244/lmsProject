@@ -8,7 +8,7 @@ installing the tailwind css
 
 1. installing the tailwind
 ```
-    npm install -D tailwindcss
+    npm install -D tailwindcss postcss autoprefixer
 ```
 2. creating the tailwind 
 ```
@@ -22,7 +22,7 @@ installing the tailwind css
 4. add file extension to tailwind config file in the contents property
 
 ```
-    "./src/**/*.{html,js,jsx,ts,tsx"
+    "./src/**/*.{html,js,jsx,ts,tsx}"
 ```
 
 5. Add the Tailwind directives to the index.css
@@ -107,3 +107,15 @@ installing the tailwind css
         "source.fillAll.eslint": true
       }
     ```
+
+### create AuthSlice.js
+
+### creating axios 
+
+### creating footer
+
+1. importing facebook,twitter,instagram, linkedin from react-icons/bs(bootstrap)
+
+```
+    import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter} from 'react-icons/bs'
+```
