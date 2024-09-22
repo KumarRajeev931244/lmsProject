@@ -119,3 +119,9 @@ installing the tailwind css
 ```
     import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter} from 'react-icons/bs'
 ```
+
+### for giving UI to the web pages
+
+  ```
+  [require('daisyui')]
+  ```
