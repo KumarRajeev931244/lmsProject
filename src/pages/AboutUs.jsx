@@ -1,10 +1,12 @@
 import HomeLayout from "../Layout/HomeLayout"
-import NelsonMandela from "../assets/NelsonMandela-2.jpg"
-import apj from "../assets/apj.jpg"
+import aboutMainImage from "../assets/aboutMainImage.png"
+import nelsonMandela from "../assets/nelsonMandela.png"
+import apj from "../assets/apj.png"
 import BillGates from "../assets/BillGates.jpg"
 import albert from "../assets/albert.jpg"
-import steveJobs from "../assets/steveJobs.jpg"
+import steveJobs from "../assets/steveJobs.png"
 function AboutUs(){
+    
     return (
         <HomeLayout>
             <div className="pl-20 pt-20 flex flex-col text-white">
@@ -19,7 +21,7 @@ function AboutUs(){
                         </p>
                     </section>
                     <div className="w-1/2">
-                        <img src="" alt="aboutMainImage" className="drop-shadow-2xl" id="test1" style={{
+                        <img src={aboutMainImage} alt="aboutMainImage" className="drop-shadow-2xl" id="test1" style={{
                             filter: 'drop-shadow(0px 10px 10px(0,0,0))'
                         }} />
                     </div>
@@ -31,7 +33,7 @@ function AboutUs(){
                         <div className="flex flex-col items-center justify-center gap-4 px-[15%]">
                             {/* Nelson mendla */}
                             <img
-                            src={NelsonMandela}
+                            src={nelsonMandela}
                             className="w-40 rounded-full border-2 border-gray-400" />
                             <h3 className="text-2xl font-semibold">Nelson Mandela</h3>
                             <p className="text-xl text-gray-200">“Education is the most powerful weapon which you can use to change the world.”</p>

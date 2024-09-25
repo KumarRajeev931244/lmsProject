@@ -80,7 +80,7 @@ function HomeLayout({children}){
                                 <Link to='/login'>Login</Link>
                             </button>
                             <button className="btn btn-secondary px-4 py-1 font-semibold rounded-md w-1/2 ">
-                                <Link onClick="/signUp">Sign Up</Link>
+                                <Link to='/signUp'>Sign Up</Link>
                             </button>
 
 
