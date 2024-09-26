@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage'
 import AboutUs from './pages/AboutUs'
 import NotFound from './pages/NotFound'
 import SignUp from './pages/SignUp'
+import Login from './pages/Login'
+import CourseList from './pages/CourseList'
 
 function App() {
   
@@ -15,6 +17,8 @@ function App() {
       <Route path='/about' element={<AboutUs/>}></Route>
       <Route path='*' element={<NotFound/>}/>
       <Route path='/signUp' element={<SignUp/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
+      <Route path='/courses' element={<CourseList/>}></Route>
     </Routes>
     </>
   )
