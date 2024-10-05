@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 function CourseCard(){
-    const navigate = useNavigate("/course/description/*")
+    const navigate = useNavigate("/course/description/*", {state: {...data}})
     return(
         <div className="text-white w-[22rem] h-[430px] shadow-lg rounded-lg cursor-pointer bg-zinc-500 group overflow-hidden">
             <div className="overflow-hidden">
