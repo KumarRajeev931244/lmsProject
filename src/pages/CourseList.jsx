@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllCourses } from "../Redux/slices/Courses";
+import { getAllCourses } from "../Redux/slices/CourseSlice";
 import HomeLayout from "../Layout/HomeLayout";
 import { elements } from "chart.js";
 import CourseCard from "../components/CourseCard"
