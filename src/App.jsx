@@ -11,6 +11,10 @@ import Denied from './pages/Denied'
 import CourseDescription from './pages/CourseDescription'
 import RequireAuth from './components/Auth/RequireAuth'
 import CreateCourse from './pages/CreateCourse'
+import Profile from './pages/User/Profile'
+import EditProfile from './pages/User/EditProfile'
+import CheckOut from './pages/payment/Checkout'
+import CheckoutSuccess from './pages/payment/CheckoutSuccess'
 
 function App() {
   
@@ -30,6 +34,10 @@ function App() {
         <Route path='/course/create' element={<CreateCourse/>}></Route>
       </Route> */}
       <Route path='/course/create' element={<CreateCourse/>}></Route>
+      <Route path='/user/editprofile' element={<EditProfile/>}></Route>
+      <Route path='/user/checkout' element={<CheckOut/>}></Route>
+      <Route path='/user/checkout/success' element={<CheckoutSuccess/>}></Route>
+
 
       {/* <Route path='/course/description' element={<CourseDescription/>}></Route> */}
     </Routes>

@@ -1,4 +1,6 @@
-import { Router } from 'express';
+// import { Router } from 'express';
+const express = require('express');
+const Router = express.Router;
 import {
   addLectureToCourseById,
   createCourse,
@@ -10,6 +12,7 @@ import {
 } from '../controllers/course.controller.js';
 import {
   authorizeRoles,
+  
   authorizeSubscribers,
   isLoggedIn,
 } from '../middlewares/auth.middleware.js';

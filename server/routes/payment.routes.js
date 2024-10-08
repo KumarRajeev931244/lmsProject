@@ -1,4 +1,6 @@
-import { Router } from 'express';
+// import { Router } from 'express';
+const express = require('express');
+const Router = express.Router;
 import {
   getRazorpayApiKey,
   buySubscription,
